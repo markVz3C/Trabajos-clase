@@ -1,5 +1,5 @@
 .titulo{
-    height: 8vh;
+    height: 10px;
 }
 .yt{
     background-color: #262329;
@@ -9,6 +9,10 @@
 a{
     text-decoration: none;
     color: black;
+}
+
+li{
+    font-size: 50%;
 }
 
 body{
@@ -47,6 +51,10 @@ body{
     list-style-type: none;
 }
 
+h2{
+    font-size: 50px;
+}
+
 .nav-links input{
     margin-left: 100px;
     background-color: #f1f1f1;
@@ -73,6 +81,28 @@ body{
 }
 
 .fondo{
-    width: 2500px;
+    width: 2700px;
 }
 
+.ffff{
+    background-color: red;
+    border-width: 0cap;
+    border-radius: 50px;
+    margin: 30px;
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+footer{
+    margin: 50px;
+}
+
+.fff{
+    color:aliceblue;
+}
+
+.menu{
+    margin: 0 auto;
+    flex-direction: column;
+}
