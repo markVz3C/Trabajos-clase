@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Pantalla KFC</title>
+    </head>
+    <body>
+        <header>
+            <div class="nav-bar">
+                <img class="kfc-logo" src="img/logo kfc.png">
+                <ul class="nav-links">
+                    <li><a href="#">Pedir</a></li>
+                    <li><a href="#">Contactos</a></li>
+                    <li><a href="#">Restaurantes</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <input type="text" id="buscar" placeholder="Buscar...">
+                    <img class="cupones" src="img/cupon.PNG">
+                    <li><a href="#">Cupones</a></li>
+                    <img class="perfil" src="img/perfil.PNG">
+                    <li><a href="#">Perfil</a></li>
+                    <li><button class="btn">Ingresar</button></li>
+                    <img class="bolsa" src="img/icon.PNG">
+                </ul>
+            </div>
+        </header>
+            <div class="t">
+        <div class="ubicacion">
+            <h2>Ingresa tu ubicación</h2>
+        </div>
+    </div>
+
+        <div class="fondo">
+            <img class="fondo" src="img/imagen principal.png">
+        </div>
+        <button class="ffff"><h1 class="fff">Ver Menu</h1></button>
+    </body>
+    <footer>
+        <div class="menu">
+        <button><img src="img/img1.jpg">  BOXES</button>
+        <button><img src="img/img2.jpg">MARTES LOCOS</button>
+        <button><img src="img/img3.jpg">BUCKETS(3 O MAS PERS)</button>
+        <button><img src="img/img4.jpg">IMPERDIBLES</button>
+        <button><img src="img/img5.jpg">COMBOS</button>
+        <button><img src="img/img6.jpg">NUGGETS</button>
+        </div>
+        <div class="menu2">
+        <button><img src="img/img7.jpg">SANDWICH</button>
+        <button><img src="img/img8.jpg">TWISTER</button>
+        <button><img src="img/img9.jpg">BUCKETS COMBO(3 O MAS PERS)</button>
+        <button><img src="img/img10.jpg">POSTRES</button>
+        <button><img src="img/img11.jpg">PARA COMPARTIR(2 O MAS PERS)</button>
+        <button><img src="img/img12.jpg">BOXES</button>
+        </div>
+    </footer>
