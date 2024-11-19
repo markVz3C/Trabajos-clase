@@ -83,10 +83,10 @@ header {
     cursor: pointer;
 }
 
-footer {
-    background-color: #f8f8f8;
-    padding: 20px 0;
-    text-align: center;
+.foter{
+        background-color: #f8f8f8;
+        padding: 20px 0;
+        text-align: center;
 }
 
 .menu,
@@ -109,7 +109,7 @@ footer {
     background-color: #fff;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
     position: relative;
     text-align: center;
 }
@@ -120,7 +120,7 @@ footer {
     height: 100px;
     object-fit: cover;
     opacity: 0.8;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.100s ease;
 }
 
 .menu button:hover,
@@ -146,4 +146,17 @@ footer {
     font-size: 14px;
     font-weight: bold;
     box-sizing: border-box;
+}
+
+footer{
+    margin:4;
+}
+
+.kfc-logo1{
+    width: 150px;
+}
+
+.online, .contacto, .somos, .politica{
+    margin: 10;
+    max-width: 180px;
 }
