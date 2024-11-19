@@ -89,8 +89,7 @@ header {
         text-align: center;
 }
 
-.menu,
-.menu2 {
+.menu, .menu2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -99,8 +98,7 @@ header {
 
 
 
-.menu button,
-.menu2 button {
+.menu button, .menu2 button {
     width: 150px;
     height: 150px;
     border: none;
@@ -114,8 +112,7 @@ header {
     text-align: center;
 }
 
-.menu button img,
-.menu2 button img {
+.menu button img, .menu2 button img{
     width: 100px;
     height: 100px;
     object-fit: cover;
@@ -123,8 +120,7 @@ header {
     transition: opacity 0.100s ease;
 }
 
-.menu button:hover,
-.menu2  {
+.menu button:hover, .menu2 button:hover{
     transform: scale(1.010);
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
 }
@@ -156,7 +152,64 @@ footer{
     width: 150px;
 }
 
-.online, .contacto, .somos, .politica{
-    margin: 10;
-    max-width: 180px;
+
+.informacion_texto {
+    margin-bottom: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.informacion_container {
+    display: flex;
+    display: wrap;
+    margin-top: 30px;
+}
+
+.informacion {
+    width: 200px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    flex: 1;
+}
+
+.apps {
+    padding-right: 5px;
+    flex: 2;
+    text-align: center;
+}
+
+.img-app {
+    height: 50px;
+    width: 140px;
+    cursor: pointer;
+}
+
+.redes {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+#derechos {
+    display: flex;
+    box-shadow: 0px -1px 1px ;
+    padding-top: 20px;
+}
+.derechos {
+    flex: 1;
+    
+}
+
+.diseño {
+ margin-right: 50PX;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifrmacion;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
