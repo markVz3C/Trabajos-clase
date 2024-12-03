@@ -88,9 +88,9 @@ body {
 
 
 .mobile-section .mobile-image {
-    width: 95%;
+    width: 100%;
     display: block;
-    margin: 20px auto;
+    margin-top: 150px;
 }
 
 
@@ -188,4 +188,138 @@ body {
 .footer-botton p{
     flex: 1;
     color: white;
+}
+
+#cupones {
+    margin-left: 140px;
+    justify-content: start;
+    color:  brown;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.cupones{
+    display: flex;
+    justify-content: center;
+}
+
+.hamburger1{
+    border-radius: 20px;
+    justify-content: start;
+    width: 350px;
+    height: 260x;
+    margin: 30px;    
+    cursor: pointer;
+
+}
+
+.hamburger2{
+    border-radius: 20px;
+    justify-content: center;
+    width: 350px;
+    height: 260px;
+    margin: 30px;
+    cursor: pointer;
+
+}
+
+.hamburger3{
+    border-radius: 20px;
+    justify-content: end;
+    width: 350px;
+    height: 260px;
+    margin: 30px;
+    cursor: pointer;
+
+}
+
+
+.kingf{
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    justify-content: end;
+    margin: 20px;
+}
+
+.kings{
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    justify-content: end;
+    margin: 20px;
+}
+
+.plant{
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    justify-content: end;
+    margin: 20px;
+}
+
+#kingf{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+
+#kingf:hover{
+    box-shadow: 0px 0px 10px;
+}
+
+
+#kings{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+
+#kings:hover{
+    box-shadow: 0px 0px 10px;
+}
+
+#plant{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    cursor: pointer;  
+    transition: box-shadow 0.2s;
+}
+
+#plant:hover{
+    box-shadow: 0px 0px 10px;
+}
+
+.content{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(163, 85, 85);
+    font-size: 15px;
+}
+
+.Fusión{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(128, 29, 29);
+}
+
+.Selection{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(128, 29, 29);
+}
+
+.Based{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(128, 29, 29);
+}
+
+.news-section{
+    display: flex;
+}
+
+.novedades{
+    display: flex;
+    margin: 0 auto; 
 }
